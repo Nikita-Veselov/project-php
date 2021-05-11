@@ -1,0 +1,116 @@
+.button {
+    color: #fff;
+
+    background-color: rgb(175, 175, 175);
+    padding: 0.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.user-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-page .table {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.user-page table {
+    width: 100%;
+}
+
+.user-page .table-title {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.user-page .button-bottom {
+    width: 50%;
+    position: fixed;
+    top: 93%;
+}
+
+.login-details {
+    align-self: center;
+    padding-right: 2rem;
+}
+.login-details a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.button-top {
+    align-self: flex-start;
+}
+
+.search-bar {
+    display:flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.search-bar .inputBox {
+    width: 45%;
+    flex-grow: 1;
+    border: 1px solid gray;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding-left: 1rem;
+}
+.search-bar .inputButton {
+    width: 10%;
+    position: fixed;
+    border: 1px solid gray;
+    border-left: none;
+    height: 1.25rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.space {
+    height: 10%;
+}
+
+.link-table {
+    width: 100%;
+}
+
+.link {
+    padding: 1.25rem;
+    width: max-content;
+}
+
+.link a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.link-date {
+    font-size: 0.65rem;
+    color: lightsalmon;
+}
+
+.link-name {
+    font-size: 1.25rem;
+    padding: 5px 0;
+}
+
+.link-created {
+    font-size: 0.75rem;
+    color:lightsteelblue;
+}
+
+.link-clicks {
+    position: absolute;
+    font-size: 0.9rem;
+    right: 15%;
+}

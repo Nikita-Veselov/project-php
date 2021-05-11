@@ -1,0 +1,86 @@
+.formDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+}
+
+.formTitle {
+    color: rgb(175, 175, 175);
+    margin: 0 0 0.5rem;
+    padding: 0;
+    text-align: center;
+}
+
+.formDiv .inputBox {
+    position: relative;
+}
+
+.formDiv .inputBox input {
+    width: 100%;
+    padding: 0.0625rem 0;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 0.062rem;
+    margin-bottom: 1.875rem;
+    border: none;
+    border-bottom: 0.065rem solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.formDiv .inputBox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.formDiv .inputBox input:focus ~ label,
+.formDiv .inputBox input:not([value=""]) ~ label {
+    top: -1.125rem;
+    left: 0;
+    color:rgb(175, 175, 175);
+    font-size: 0.75rem;
+}
+
+.formDiv button{
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(175, 175, 175);
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.formDiv button:hover {
+    background-color: rgb(129, 129, 129);
+}
+.formDiv a {
+    float: right;
+}
+
+.formDiv .message {
+    text-align: center;
+    color: rgba(200, 40, 40, 0.959);
+}
